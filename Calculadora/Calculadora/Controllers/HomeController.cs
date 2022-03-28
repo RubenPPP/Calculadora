@@ -98,7 +98,10 @@ namespace Calculadora.Controllers
                     limpaEcra = "True";
                     break;
                 case "C":
-
+                    limpaEcra = "False";
+                    visor = "";
+                    operador = "";
+                    primeiroOperando = "";
                     break;
             }
             // Preparar os dados a serem enviados para a View
